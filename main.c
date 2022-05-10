@@ -38,13 +38,13 @@
    void *h2p_lw_reg3_addr;
    void *h2p_lw_reg4_addr; 
    
-/*  
+
  //Génération boucle for pour faire tourner le programme un nbre x de fois
  int main (int argc, char *argv[]) {
  int i=0;
  printf("\ncmdline args count=%d", argc);
 
- /* First argument is executable name only
+ /* First argument is executable name only*/
  printf("\nexe name=%s", argv[0]);
 
  for (i=1; i< argc; i++) {
