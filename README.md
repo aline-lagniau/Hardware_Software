@@ -12,7 +12,7 @@ La partie Hardware est responsable des I/O choisies et implémentées via 'Platf
 
 La partie Software doit quant-à-elle modifier le Main.c directement envoyé sur le processeur, permettant d'afficher les informations reçues et décodée à l'aide du programme ServoIn venant du Hardware. Le membre Software est également responsable de connecter le processeur à l'ordinateur, d'y envoyer les programmes nécessaires et de le faire fonctionner. Finalement, il doit être capable de lire à l'oscilloscope les signaux reçus et lu via le processeur.
 
-Afin de tester le programme final, le comportement d'un Servo Moteur sera simulé par une carte PIC envoyé les informations nécessaires à la détermination du 'count' et de la fréquence. 
+Afin de tester le programme final, le comportement d'un Servo Moteur sera simulé par une carte PIC envoyant les informations nécessaires à la détermination du 'count' et de la fréquence. 
 
 L'ensemble des membres de l'équipe vous souhaite un bon visionnage et espère que le VHDL n'aura plus de secret pour vous après ce tuto !
 
