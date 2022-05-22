@@ -8,6 +8,8 @@ Le tuto suivant permet d'introduire aux lecteurs des bases en VHDL, un langage d
 
 Ce tuto est divisé en 2 parties principales : Software & Hardware.
 
-  La partie Software permet de 
+    La partie Hardware est responsable des I/O choisies et implémentée via "Platform Designer". Le membre responsable du Hardware doit également compléter le ghrd du programme afin d'y ajouter le bloc relatif à notre projet (contenant les I/O, clk, rst... utilisés). Il doit également créer un programme (ServoIn dans le cas présent) dont le but est d'établir un 'count' et un compteur de fréquence. Le 'count' compte le nombre de battements d'horloge entre deux états S1. La fréquence est déterminée à l'aide de ce 'count'. Finalement, le membre Hardware crée un TestBench dont l'objectif est de simuler le comportement du programme ServoIn avant de le lier à la partie Software et au processeur.
+    
+    La partie Software doit quant-à-elle modifier le Main.c directement envoyé sur le processeur, permettant d'afficher les informations reçues et décodée à l'aide du programme ServoIn venant du Hardware. Le membre Software est également responsable de connecter le processeur à l'ordinateur, d'y envoyer les programmes nécessaires et de le faire fonctionner. Finalement, il est capable de lire à l'oscilloscope les signaux reçus et lu par le processeur.
 
 
