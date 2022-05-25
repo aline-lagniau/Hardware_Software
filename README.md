@@ -14,6 +14,6 @@ La partie Software doit quant-à-elle modifier le Main.c directement envoyé sur
 
 Afin de tester le programme final, le comportement d'un Servo Moteur sera simulé par une carte PIC envoyant les informations nécessaires à la détermination du 'count' et de la fréquence. 
 
-L'ensemble des membres de l'équipe vous souhaite un bon visionnage et espère que le VHDL n'aura plus de secret pour vous après ce tuto !
+Une vidéo explicative complète se trouve à l'aresse suivante : https://youtu.be/0BS4j2wZApQ.  L'ensemble des membres de l'équipe vous souhaite un bon visionnage et espère que le VHDL n'aura plus de secret pour vous après ce tuto !
 
 
